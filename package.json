@@ -1,0 +1,33 @@
+{
+  "name": "ReactNativeApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "buildIcon": "./node_modules/.bin/generate-icon icon/iconfont.css --componentName=IconFont --fontFamily=iconfont > js/IconFont.js"
+  },
+  "dependencies": {
+    "lodash": "4.13.1",
+    "moment": "2.13.0",
+    "react": "15.1.0",
+    "react-native": "0.27.2",
+    "react-native-chart": "git+https://github.com/lumin824/react-native-chart.git",
+    "react-native-code-push": "1.12.2-beta",
+    "react-native-image-picker": "0.19.7",
+    "react-native-nufront-wifi": "git+https://github.com/lumin824/react-native-nufront-wifi.git",
+    "react-native-qq": "git+https://github.com/lumin824/react-native-qq.git",
+    "react-native-router-flux": "3.30.0",
+    "react-native-screenshot": "git+https://github.com/lumin824/react-native-screenshot.git",
+    "react-native-toast": "1.0.1",
+    "react-native-vector-icons": "2.0.3",
+    "react-native-wechat": "git+https://github.com/lumin824/react-native-wechat.git",
+    "react-redux": "4.4.5",
+    "redux": "3.5.2",
+    "redux-actions": "0.10.0",
+    "redux-logger": "2.6.1",
+    "redux-persist": "3.2.2",
+    "redux-promise": "0.5.3",
+    "redux-thunk": "2.1.0",
+    "undefined": "^0.1.0"
+  }
+}
